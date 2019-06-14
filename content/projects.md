@@ -6,7 +6,7 @@ description = "projects"
 +++
 
 ## WiLoc
-{{% portfolio image="/images/proj.png" alt="Coder Portfolio" %}}
+{{% portfolio image="../images/proj.png" alt="Coder Portfolio" %}}
 
 ## Wireless Locator
 

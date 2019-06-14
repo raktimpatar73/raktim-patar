@@ -12,14 +12,14 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 pygmentsUseClasses = true
 
-disqusShortname = "yourdiscussshortname"
+disqusShortname = "raktimpatar"
 
 [params]
     author = "Raktim Patar"
     description = "Raktim Patar's personal website"
     keywords = "blog,developer,personal"
-    info = "WEB AND APPS ENGINEER"
-    avatarurl = "/avatar.jpg"
+    info = "PYTHON AND JAVASCRIPT BACKEND DEVELOPER "
+    avatarurl = "images/my_image.jpg"
     footercontent = "It's me Raktim, Enjoy your time here."
     fixedbarContent = "Want to hire me if I fit your companies requirements?→"
     fixedbarContentAfter = "Thank You! Will be waiting→"
@@ -64,7 +64,7 @@ disqusShortname = "yourdiscussshortname"
         # You can configure the theme parameter for each language.
         [languages.en.params]
             author = "Raktim Patar"
-            info = "BACKEND ENGINEER PYTHON AND JAVASCRIPT"
+            info = "PYTHON AND JAVASCRIPT BACKEND DEVELOPER"
             description = "Raktim Patar's personal website"
             keywords = "blog,developer,personal"
 
