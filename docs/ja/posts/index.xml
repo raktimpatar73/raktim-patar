@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 石見 優丞</title>
-    <link>http://www.example.com/ja/posts/</link>
+    <link>https://raktimpatar73.github.io/raktim-patar/ja/posts/</link>
     <description>Recent content in Posts on 石見 優丞</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 03 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.example.com/ja/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://raktimpatar73.github.io/raktim-patar/ja/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CoderPortfolioの特徴</title>
-      <link>http://www.example.com/ja/posts/featuresofcoderportfolio/</link>
+      <link>https://raktimpatar73.github.io/raktim-patar/ja/posts/featuresofcoderportfolio/</link>
       <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/ja/posts/featuresofcoderportfolio/</guid>
+      <guid>https://raktimpatar73.github.io/raktim-patar/ja/posts/featuresofcoderportfolio/</guid>
       <description>変更点 ShortCode &amp;ldquo;private content&amp;rdquo;を追加しました 綺麗なサイトを崩さずに、あなたの個人的なコンテンツ（趣味や感情）を簡単に伝えることができます。
 実際の動きについては、&amp;rdquo;テーマデモ&amp;rdquo;をご覧ください。
 リンクに赤い下線のアニメーションを追加しました サイトがよりカラフルに美しくなりました。
@@ -29,10 +29,10 @@ ShortCode &amp;ldquo;portfolio&amp;rdquo;を追加しました あなたの作�
     
     <item>
       <title>テーマデモ</title>
-      <link>http://www.example.com/ja/posts/theme-demo/</link>
+      <link>https://raktimpatar73.github.io/raktim-patar/ja/posts/theme-demo/</link>
       <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/ja/posts/theme-demo/</guid>
+      <guid>https://raktimpatar73.github.io/raktim-patar/ja/posts/theme-demo/</guid>
       <description>Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading This is bold text
 This is bold text
 This is italic text

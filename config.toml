@@ -1,4 +1,4 @@
-baseurl = "http://www.example.com"
+baseurl = "https://raktimpatar73.github.io/raktim-patar/"
 title = "Yusuke Ishimi"
 publishDir = "docs"
 theme = "coder-portfolio"

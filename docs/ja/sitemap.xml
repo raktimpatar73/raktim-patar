@@ -3,136 +3,136 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.example.com/ja/posts/featuresofcoderportfolio/</loc>
+    <loc>https://raktimpatar73.github.io/raktim-patar/ja/posts/featuresofcoderportfolio/</loc>
     <lastmod>2018-08-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/posts/featuresofcoderportfolio/"
+                href="https://raktimpatar73.github.io/raktim-patar/posts/featuresofcoderportfolio/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://www.example.com/ja/posts/featuresofcoderportfolio/"
+                href="https://raktimpatar73.github.io/raktim-patar/ja/posts/featuresofcoderportfolio/"
                 />
   </url>
   
   <url>
-    <loc>http://www.example.com/ja/posts/</loc>
-    <lastmod>2018-08-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://www.example.com/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://www.example.com/ja/posts/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://www.example.com/ja/posts/theme-demo/</loc>
-    <lastmod>2018-08-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://www.example.com/posts/theme-demo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://www.example.com/ja/posts/theme-demo/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://www.example.com/ja/</loc>
+    <loc>https://raktimpatar73.github.io/raktim-patar/ja/posts/</loc>
     <lastmod>2018-08-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/"
+                href="https://raktimpatar73.github.io/raktim-patar/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://www.example.com/ja/"
+                href="https://raktimpatar73.github.io/raktim-patar/ja/posts/"
                 />
   </url>
   
   <url>
-    <loc>http://www.example.com/ja/about/</loc>
+    <loc>https://raktimpatar73.github.io/raktim-patar/ja/posts/theme-demo/</loc>
+    <lastmod>2018-08-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/about/"
+                href="https://raktimpatar73.github.io/raktim-patar/posts/theme-demo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://www.example.com/ja/about/"
+                href="https://raktimpatar73.github.io/raktim-patar/ja/posts/theme-demo/"
                 />
   </url>
   
   <url>
-    <loc>http://www.example.com/ja/categories/</loc>
+    <loc>https://raktimpatar73.github.io/raktim-patar/ja/</loc>
+    <lastmod>2018-08-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/categories/"
+                href="https://raktimpatar73.github.io/raktim-patar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://www.example.com/ja/categories/"
+                href="https://raktimpatar73.github.io/raktim-patar/ja/"
                 />
   </url>
   
   <url>
-    <loc>http://www.example.com/ja/contact/</loc>
+    <loc>https://raktimpatar73.github.io/raktim-patar/ja/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/contact/"
+                href="https://raktimpatar73.github.io/raktim-patar/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://www.example.com/ja/contact/"
+                href="https://raktimpatar73.github.io/raktim-patar/ja/about/"
                 />
   </url>
   
   <url>
-    <loc>http://www.example.com/ja/projects/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://www.example.com/projects/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://www.example.com/ja/projects/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://www.example.com/ja/tags/</loc>
+    <loc>https://raktimpatar73.github.io/raktim-patar/ja/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/tags/"
+                href="https://raktimpatar73.github.io/raktim-patar/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://www.example.com/ja/tags/"
+                href="https://raktimpatar73.github.io/raktim-patar/ja/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://raktimpatar73.github.io/raktim-patar/ja/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://raktimpatar73.github.io/raktim-patar/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://raktimpatar73.github.io/raktim-patar/ja/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://raktimpatar73.github.io/raktim-patar/ja/projects/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://raktimpatar73.github.io/raktim-patar/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://raktimpatar73.github.io/raktim-patar/ja/projects/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://raktimpatar73.github.io/raktim-patar/ja/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://raktimpatar73.github.io/raktim-patar/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://raktimpatar73.github.io/raktim-patar/ja/tags/"
                 />
   </url>
   
