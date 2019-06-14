@@ -1,5 +1,5 @@
 baseurl = "https://raktimpatar73.github.io/raktim-patar/"
-title = "Yusuke Ishimi"
+title = "Raktim Patar"
 publishDir = "docs"
 theme = "coder-portfolio"
 
@@ -15,14 +15,14 @@ pygmentsUseClasses = true
 disqusShortname = "yourdiscussshortname"
 
 [params]
-    author = "Yusuke Ishimi"
-    description = "Yusuke Ishimi's personal website"
+    author = "Raktim Patar"
+    description = "Raktim Patar's personal website"
     keywords = "blog,developer,personal"
     info = "WEB AND APPS ENGINEER"
-    avatarurl = "images/avatar.jpg"
-    footercontent = "Enter a text here."
-    fixedbarContent = "Do you want to know me more private?→"
-    fixedbarContentAfter = "Thank You! Please share it if you like it→"
+    avatarurl = "/avatar.jpg"
+    footercontent = "It's me Raktim, Enjoy your time here."
+    fixedbarContent = "Want to hire me if I fit your companies requirements?→"
+    fixedbarContentAfter = "Thank You! Will be waiting→"
 
     hideCredits = false
     hideCopyright = false
@@ -45,27 +45,27 @@ disqusShortname = "yourdiscussshortname"
 [[params.social]]
     name = "Github"
     weight = 1
-    url = "https://github.com/naro143/"
+    url = "https://github.com/raktimpatar73"
 [[params.social]]
-    name = "Twitter"
+    name = "Facebook"
     weight = 2
-    url = "https://twitter.com/naro143/"
+    url = "https://www.facebook.com/raktim.patar.7"
 [[params.social]]
     name = "LinkedIn"
     weight = 3
-    url = "https://www.linkedin.com/in/naro143/"
+    url = "https://www.linkedin.com/in/raktim-patar-774ab8126/"
 
 [languages]
     [languages.en]
         languagecode = "en"
         languagename = "English" # The language name to be displayed in the selector.
-        title = "Yusuke Ishimi"
+        title = "Raktim Patar"
 
         # You can configure the theme parameter for each language.
         [languages.en.params]
-            author = "Yusuke Ishimi"
-            info = "WEB AND APPS ENGINEER"
-            description = "Yusuke Ishimi's personal website"
+            author = "Raktim Patar"
+            info = "BACKEND ENGINEER PYTHON AND JAVASCRIPT"
+            description = "Raktim Patar's personal website"
             keywords = "blog,developer,personal"
 
         [languages.en.menu] # It is possible to change the menu too.
@@ -85,36 +85,36 @@ disqusShortname = "yourdiscussshortname"
                 weight = 3
                 url = "projects"
             [[languages.en.menu.main]]
-                name = "Contact me"
+                name = "Resume"
                 weight = 5
-                url = "contact"
+                url = "resume"
 
 
-    [languages.ja]
-        languagecode = "ja"
-        languagename = "Japanese"
-        title = "石見 優丞"
+    [languages.fr]
+        languagecode = "fr"
+        languagename = "Français"
+        title = "Raktim Patar"
 
-        [languages.ja.params]
-            author = "石見 優丞"
-            description = "石見のサイト"
+        [languages.fr.params]
+            author = "Raktim Patar"
+            description = "Site personnel de Raktim Patar"
             keywords = "blog,developer,strona domowa"
-            info = "WEBとアプリのエンジニア"
+            info = "Ingénieur Backend PYTHON et JAVASCRIPT"
 
-        [languages.ja.menu]
-            [[languages.ja.menu.main]]
-                name = "テーマについて"
+        [languages.fr.menu]
+            [[languages.fr.menu.main]]
+                name = "À propos"
                 weight = 1.0
-                url = "ja/about"
-            [[languages.ja.menu.main]]
-                name = "ブログ"
+                url = "fr/about"
+            [[languages.fr.menu.main]]
+                name = "Blog"
                 weight = 2.0
-                url = "ja/posts"
-            [[languages.ja.menu.main]]
-                name = "プロジェクト"
+                url = "fr/posts"
+            [[languages.fr.menu.main]]
+                name = "Projets"
                 weight = 3
-                url = "ja/projects"
-            [[languages.ja.menu.main]]
-                name = "お問い合わせ"
+                url = "fr/projects"
+            [[languages.fr.menu.main]]
+                name = "Curriculum Vitae"
                 weight = 5
-                url = "ja/contact"
+                url = "fr/resume"

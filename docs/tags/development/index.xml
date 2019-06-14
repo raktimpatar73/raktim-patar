@@ -1,38 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>development on Yusuke Ishimi</title>
+    <title>development on Raktim Patar</title>
     <link>https://raktimpatar73.github.io/raktim-patar/tags/development/</link>
-    <description>Recent content in development on Yusuke Ishimi</description>
+    <description>Recent content in development on Raktim Patar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://raktimpatar73.github.io/raktim-patar/tags/development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://raktimpatar73.github.io/raktim-patar/posts/hugo-template-primer/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>How I created this site</title>
+      <link>https://raktimpatar73.github.io/raktim-patar/posts/how-i-created-this-site/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://raktimpatar73.github.io/raktim-patar/posts/hugo-template-primer/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
+      <guid>https://raktimpatar73.github.io/raktim-patar/posts/how-i-created-this-site/</guid>
+      <description>Step 1. Setting Up Hugo For this read my previous blog on Getting started with Hugo in Ubuntu
+Step 2. Starting a new project Start a new project by using the below commands.
+$ cd Desktop $ hugo new site mysite You can give any name to your site, just write your desired project name instead of &amp;lsquo;mysite&amp;rsquo;
+$ cd mysite $ hugo server Change to your project directory and start hugo server to view your first ever hugo project.</description>
     </item>
     
     <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://raktimpatar73.github.io/raktim-patar/posts/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>getting started with hugo in Ubuntu</title>
+      <link>https://raktimpatar73.github.io/raktim-patar/posts/hugo-for-ubuntu/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://raktimpatar73.github.io/raktim-patar/posts/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+      <guid>https://raktimpatar73.github.io/raktim-patar/posts/hugo-for-ubuntu/</guid>
+      <description>Step 0. Installing Go Hugo requires Go installed in your system. If you have Go already installed in your ubuntu version jump straight to the next section. And for all other who are new to Go just follow along:
+$ sudo apt-get update \ &amp;gt; sudo apt install snapd \ &amp;gt; sudo snap install --classic go There are many other ways to install go, but this is the easiest one in my opinion for all those who does not want to go setting up an environment.</description>
     </item>
     
   </channel>

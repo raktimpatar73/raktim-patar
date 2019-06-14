@@ -1,40 +1,33 @@
 +++
-title = "About Hugo"
+title = "About The Author"
 slug = "about"
 thumbnail = "images/tn.png"
 description = "about"
 +++
 
 ---------------------------
-This theme is created based on [hugo-coder](https://github.com/luizdepra/hugo-coder).  
-I made it possible to tell yourself more by my change.   
-Please see "FeaturesOfCoderPortfolio" in the post about the change.
-Regarding other demo contents, it is hugo-coder's thing.  
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/naro143/hugo-coder-portfolio/issues/new) or [ask me on Twitter](https://twitter.com/naro143).
+Hey visitors!
+Raktim is an IT engineering student from ABV-IIITM Gwalior with a hunger of knowledge for tech developments.
 
+Most of the time I get my work done with Python that has helped me in getting internships and completing my projects. Have sound knowledge in some of the algorithms paired with tid bits of data structures that might come handy in interviews.
+```
+WTH! too much technical like$ --help.
+```
 ---------------------------
 
-Hugo is a static site engine written in Go.
+Let's get personel. 
 
+Born in 1997.  
+The year on which our beloved wifi standard [802.11](https://en.wikipedia.org/wiki/IEEE_802.11) was introduced. 
 
-It makes use of a variety of open source projects including:
+I tend to do and like a lot of stuff. I like to shake my body a bit (you guys might say it's dancing), i like to play volleyball, football and almost everything that ends with a "ball" except base ball because never got the chance to play. In my sophomore year I started playing Counter Strike:Global Offensive that I love alot, and it became one of my favourite past times to play alone or with my online friends.
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
+Was a science student in my highschool before opting for engineering. It was a great experience growing up with a great father who is physically fit and good in sports. This encouraged me to get good in sports while staying fit during my high school days. Then I started pursuing computer science with some basic knowledge of C++ and data structures. 
 
-Learn more and contribute on [GitHub](https://github.com/spf13).
+July 2015, I joined ABV IIITM as an IPG student (Integrated Post Graduate for those wondering) and started my journey as a IT bachelor looking for stuff to learn. Most of my college days went participating in cultural and sports activities with some python projects on the sideline . You can check on them by clicking on [projects](https://github.com/raktimpatar73)
 
-## Setup
-
-Some fun facts about [Hugo](http://gohugo.io/):
-
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
+Now it's been years since then and along the way found many people who supported and shown me the path to become a better person.
 
 Thanks for reading!
+
+----------------------------

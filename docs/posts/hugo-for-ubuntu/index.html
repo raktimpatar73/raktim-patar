@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Raktim Patar">
+    <meta name="description" content="https://raktimpatar73.github.io/raktim-patar/">
+    <meta name="keywords" content="blog,developer,personal">
+    
+    <meta property="og:site_name" content="Raktim Patar">
+    <meta property="og:title" content="
+  getting started with hugo in Ubuntu - Raktim Patar
+">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://raktimpatar73.github.io/raktim-patar/posts/hugo-for-ubuntu/">
+    <meta property="og:image" content="https://raktimpatar73.github.io/raktim-patar/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://raktimpatar73.github.io/raktim-patar/posts/hugo-for-ubuntu/">
+    <meta name="twitter:image" content="https://raktimpatar73.github.io/raktim-patar/">
+
+    <base href="https://raktimpatar73.github.io/raktim-patar/posts/hugo-for-ubuntu/">
+    <title>
+  getting started with hugo in Ubuntu - Raktim Patar
+</title>
+
+    <link rel="canonical" href="https://raktimpatar73.github.io/raktim-patar/posts/hugo-for-ubuntu/">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="https://raktimpatar73.github.io/raktim-patar/css/normalize.min.css">
+    <link rel="stylesheet" href="https://raktimpatar73.github.io/raktim-patar/css/style.min.css">
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://raktimpatar73.github.io/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://raktimpatar73.github.io/images/favicon-16x16.png" sizes="16x16">
+
+    
+      <link rel="alternate" href="https://raktimpatar73.github.io/raktim-patar/index.xml" type="application/rss+xml" title="Raktim Patar">
+      <link href="https://raktimpatar73.github.io/raktim-patar/index.xml" rel="feed" type="application/rss+xml" title="Raktim Patar" />
+    
+
+    <meta name="generator" content="Hugo 0.55.6" />
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/raktim-patar/">Raktim Patar</a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://raktimpatar73.github.io/raktim-patar/about">About</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://raktimpatar73.github.io/raktim-patar/posts">Blog</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://raktimpatar73.github.io/raktim-patar/projects">Projects</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://raktimpatar73.github.io/raktim-patar/resume">Resume</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            <li class= " mobile-menu-lang-separator-centered ">
+              <hr />
+            </li>
+          
+          
+            
+          
+            
+              
+                
+                  <li class="multilingual-separator">
+                    <p>|</p>
+                  </li>
+                
+                
+              
+              <li class="navigation-item  align-center ">
+                <a href="https://raktimpatar73.github.io/raktim-patar/fr/">Français</a>
+              </li>
+            
+          
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">getting started with hugo in Ubuntu</h1>
+      <h2 class="date">June 10, 2019</h2>
+
+      
+    </header>
+
+    
+
+<h2 id="step-0-installing-go">Step 0. Installing Go</h2>
+
+<p>Hugo requires Go installed in your system. If you have Go already installed in your ubuntu version jump straight to the next section.
+And for all other who are new to Go just follow along:</p>
+<div class="highlight"><pre class="chroma">$ sudo apt-get update \
+&gt; sudo apt install snapd \
+&gt; sudo snap install --classic go</pre></div>
+<p>There are many other ways to install go, but this is the easiest one in my opinion for all those who does not want to go setting up an environment.</p>
+
+<p><strong>NOTE :</strong> This installation is meant for recent Ubuntu versions. Not tested for older versions.</p>
+
+<h2 id="step-1-install-hugo">Step 1. Install Hugo</h2>
+
+<p><strong>Method 1:</strong> Using apt</p>
+<div class="highlight"><pre class="chroma">$ sudo apt-get install hugo</pre></div>
+<p>This method might lead to some issues due to apt being not able to install the latest version of hugo on your system.
+Check with</p>
+<div class="highlight"><pre class="chroma">$ hugo version</pre></div>
+<p>If the hugo version is not equal to the latest version follow the below steps.</p>
+
+<p><br>
+<strong>Method 2:</strong> Downloading and Installing Hugo</p>
+
+<p>Goto <a href="https://github.com/spf13/hugo/releases">hugo releases</a> and download the latest extended .deb file for your os and architecture.<br></p>
+
+<p>Save it somewhere specific or install using Ubuntu&rsquo;s native Package manager that would work the same.</p>
+
+<p>Or you can follow the manual way of extracting and installing it.</p>
+
+<h2 id="step-2-using-cli">Step 2. Using CLI</h2>
+
+<p><br></p>
+
+<p>First we need to download the latest version of hugo</p>
+<div class="highlight"><pre class="chroma">$ wget https://github.com/gohugoio/hugo/releases/download/{version}/{file name}</pre></div>
+<p>Then the below steps are for extracting, installing, removing the compressed file followed by checking of hugo version</p>
+<div class="highlight"><pre class="chroma">$ sudo dpkg -i hugo_extended_0.55.6_Linux-64bit.deb
+$ sudo rm hugo_extended_0.55.6_Linux-64bit.deb
+$ sudo hugo version</pre></div>
+<p>This should give an output:</p>
+<div class="highlight"><pre class="chroma">Hugo Static Site Generator v0.55.6-A5D4C82D2/extended linux/amd64 BuildDate: 2019-05-18T08:08:34Z</pre></div>
+<p>If you get such an output my friend we are ready to buld some beautiful static sites
+If you want to knwo how I made this website don&rsquo;t forget to click on this link -&gt; <a href="/posts/how-i-created-this-site/">How I created this site</a></p>
+
+  </article>
+
+  <br/>
+
+  
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  
+  
+</section>
+
+      </div>
+      
+        <footer class="footer">
+  <section class="container">
+    
+      <div class="sns-shares sp-sns-shares">
+        <a class="sns-share twitter-share" href="https://twitter.com/intent/tweet?original_referer=https%3a%2f%2fraktimpatar73.github.io%2fraktim-patar%2fposts%2fhugo-for-ubuntu%2f&ref_src=twsrc%5Etfw&text=getting%20started%20with%20hugo%20in%20Ubuntu Raktim%20Patar&tw_p=tweetbutton&url=https%3a%2f%2fraktimpatar73.github.io%2fraktim-patar%2fposts%2fhugo-for-ubuntu%2f"><i class="fab fa-twitter"></i></a>
+        <a class="fb btn sns-share fb-share" href="http://www.facebook.com/share.php?u=https%3a%2f%2fraktimpatar73.github.io%2fraktim-patar%2fposts%2fhugo-for-ubuntu%2f" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fab fa-facebook-f"></i></a>
+        <a class="sns-share hatena-share" href="http://b.hatena.ne.jp/entry/https://raktimpatar73.github.io/raktim-patar/posts/hugo-for-ubuntu/"  data-hatena-bookmark-layout="touch" data-hatena-bookmark-width="40" data-hatena-bookmark-height="40" title="このエントリーをはてなブックマークに追加"><i class="fas fa-bookmark"></i></a>
+        <a class="sns-share line-share" href="https://social-plugins.line.me/lineit/share?url=https%3a%2f%2fraktimpatar73.github.io%2fraktim-patar%2fposts%2fhugo-for-ubuntu%2f"><i class="fab fa-line"></i></a>
+      </div>
+    
+    
+      <p>It&#39;s me Raktim, Enjoy your time here.</p>
+    
+     © 2019    ·  Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/naro143/hugo-coder-portfolio">CoderPortfolio</a>. 
+
+  </section>
+</footer>
+<div class="fixed-bar">
+  <section class="container">
+    
+      <p id="privateTriggerText">Want to hire me if I fit your companies requirements?→<a id="privateTrigger">Click!</a></p>
+    
+    
+      <div class="sns-shares pc-sns-shares">
+        <a class="sns-share twitter-share" href="https://twitter.com/intent/tweet?original_referer=https%3a%2f%2fraktimpatar73.github.io%2fraktim-patar%2fposts%2fhugo-for-ubuntu%2f&ref_src=twsrc%5Etfw&text=getting%20started%20with%20hugo%20in%20Ubuntu Raktim%20Patar&tw_p=tweetbutton&url=https%3a%2f%2fraktimpatar73.github.io%2fraktim-patar%2fposts%2fhugo-for-ubuntu%2f"><i class="fab fa-twitter"></i></a>
+        <a class="fb btn sns-share fb-share" href="http://www.facebook.com/share.php?u=https%3a%2f%2fraktimpatar73.github.io%2fraktim-patar%2fposts%2fhugo-for-ubuntu%2f" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fab fa-facebook-f"></i></a>
+        <a class="sns-share hatena-share" href="http://b.hatena.ne.jp/entry/https://raktimpatar73.github.io/raktim-patar/posts/hugo-for-ubuntu/"  data-hatena-bookmark-layout="touch" data-hatena-bookmark-width="40" data-hatena-bookmark-height="40" title="このエントリーをはてなブックマークに追加"><i class="fas fa-bookmark"></i></a>
+        <a class="sns-share line-share" href="https://social-plugins.line.me/lineit/share?url=https%3a%2f%2fraktimpatar73.github.io%2fraktim-patar%2fposts%2fhugo-for-ubuntu%2f"><i class="fab fa-line"></i></a>
+       </div>
+    
+  </section>
+</div>
+
+      
+    </main>
+
+    
+
+  <script src="https://raktimpatar73.github.io/raktim-patar/js/app.js"></script>
+  
+  <script>
+  (function($) {
+    $(function() {
+      $('#privateTrigger').on('click', function() {
+        $('.private').slideToggle();
+        $('#privateTriggerText').text("Thank You! Will be waiting→");
+      });
+    });
+   })(jQuery);
+  </script>
+  
+  </body>
+</html>

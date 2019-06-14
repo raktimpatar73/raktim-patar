@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://raktimpatar73.github.io/raktim-patar/fr/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://raktimpatar73.github.io/raktim-patar/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://raktimpatar73.github.io/raktim-patar/fr/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://raktimpatar73.github.io/raktim-patar/fr/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://raktimpatar73.github.io/raktim-patar/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://raktimpatar73.github.io/raktim-patar/fr/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://raktimpatar73.github.io/raktim-patar/fr/projects/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://raktimpatar73.github.io/raktim-patar/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://raktimpatar73.github.io/raktim-patar/fr/projects/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://raktimpatar73.github.io/raktim-patar/fr/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://raktimpatar73.github.io/raktim-patar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://raktimpatar73.github.io/raktim-patar/fr/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://raktimpatar73.github.io/raktim-patar/fr/resume/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://raktimpatar73.github.io/raktim-patar/resume/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://raktimpatar73.github.io/raktim-patar/fr/resume/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://raktimpatar73.github.io/raktim-patar/fr/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://raktimpatar73.github.io/raktim-patar/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://raktimpatar73.github.io/raktim-patar/fr/tags/"
+                />
+  </url>
+  
+</urlset>
