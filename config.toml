@@ -21,7 +21,7 @@ disqusShortname = "raktimpatar"
     info = "PYTHON AND JAVASCRIPT BACKEND DEVELOPER "
     avatarurl = "images/my_image.jpg"
     footercontent = "It's me Raktim, Enjoy your time here."
-    fixedbarContent = "Want to hire me if I fit your companies requirements?→"
+    fixedbarContent = "Want to hire me or know me more?→"
     fixedbarContentAfter = "Thank You! Will be waiting→"
 
     hideCredits = false
